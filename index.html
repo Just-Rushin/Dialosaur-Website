@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="scripts.js"></script>
+    <title>Dialosaur</title>
+</head>
+<body>
+     <nav class="navbar">
+      <div class="nav-left">
+        <a href="#" class="nav-logo">Dialosaur</a>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Project</a>
+        <a href="#" class="nav-link">System Architecture</a>
+        <a href="#" class="nav-link">Features</a>
+        <a href="#" class="nav-link">Development Journey</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+        <h1><strong>Welcome to Dialosaur</strong></h1>
+        <p>The future of communication is looking a bit more prehistoric!</p>
+        <br>
+        <p>Dialosaur combines a custom Flutter admin portal, a cross-platform softphone, a Dart-powered middleware layer and an Asterisk PBX running on low-cost hardware to create a modern communications platform from the ground up.</p>
+        <p>Built with Flutter, Dart, Asterisk and Raspberry Pi.</p>
+        <button>Learn More</button>
+    </div>
+
+    <div class="project">
+        <h2>Why Dialosaur?</h2>
+        <br>
+        <p>Dialosaur started as a project to make a self-hosted phone system to learn more about SIP technology. Building a phone system from the ground up using Asterisk on a Raspberry Pi and then building a custom admin portal and softphone with Flutter.</p>
+        <br>
+        <p>It was also interesting to see how much of the system could be built with a single language and framework.</p>
+    </div>
+
+    <div class="system-architecture">
+        <h2>System Architecture</h2>
+        <p>The system architecture of Dialosaur is designed to be modular and scalable.</p>
+    </div>
+        <br>
+        <div class="system-card-container">
+        <div class="system-card">
+        <h3>Asterisk PBX</h3>
+        <p>The Asterisk PBX serves as the core telephony engine, handling call processing and management. Handling the following;
+            <br>
+            <ul>
+                <li>SIP Trunking</li>
+                <li>Call Routing</li>
+                <li>Voicemail</li>
+                <li>Conference Calling</li>
+                <li>IVR (Interactive Voice Response)</li>
+                <li>Call Recording</li>
+            </ul>
+        </p>
+        </div>
+        <br>
+        <div class="system-card">
+        <h3>Dart Shelf Middleware</h3>
+        <p>This layer acts as a bridge between the Asterisk PBX and the Flutter applications. Instead of exposing clients directly to the PBX, Dart Shelf provides a clean API for communication between Asterisk and the Flutter applications by handling;
+            <br>
+            <ul>
+                <li>Authentication</li>
+                <li>REST APIs</li>
+                <li>User Management</li>
+                <li>Rate Limiting</li>
+                <li>Logging and Monitoring</li>
+            </ul>
+        </p>
+        </div>
+        <br>
+        <div class="system-card">
+        <h3>Flutter Admin Portal</h3>
+        <p>The Flutter Admin Portal provides a user-friendly interface for managing the Dialosaur system
+            <br>
+            <ul>
+                <li>Create and manage extensions</li>
+                <li>View system health</li>
+                <li>System Settings</li>
+                <li>Voicemail Management</li>
+                <li>Analytics and Reporting</li>
+            </ul>
+        </p>
+        </div>
+        <br>
+        <div class="system-card">
+        <h3>Flutter Softphone</h3>
+        <p>The Flutter Softphone provides a modern, feature-rich interface for making and receiving calls, with seamless integration into the Dialosaur system.
+            <br>
+            <ul>
+                <li>Make and receive calls</li>
+                <li>Call history</li>
+                <li>Contacts management</li>
+                <li>Voicemail integration</li>
+                <li>Conference calling</li>
+            </ul>
+            <br>
+            Available on Android, Web and Windows.
+        </p>
+        </div>
+        </div>
+    
+</body>
+</html>
