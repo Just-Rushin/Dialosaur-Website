@@ -44,6 +44,15 @@ body {
   text-decoration: none;
 }
 
+.divider {
+  border-top: 1px solid #05c425;
+  border: 0;
+  height: 1px;
+  background-color: #05c425;
+  width: 80%;
+  margin: 2rem auto;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -107,4 +116,18 @@ body {
   margin: 1rem;
   width: 300px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.development-journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
